@@ -1,0 +1,64 @@
+{
+    "[scss]": {
+        "editor.formatOnSave": true
+    },
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorWidth": 3,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.dragAndDrop": true,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": true,
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "window.zoomLevel": 0,
+    "files.associations": {
+        "*.erb": "javascript",
+        "*.css": "css",
+        "*.scss.erb": "scss",
+        "*.jst.ejs": "ejs",
+        "*.jst": "ejs",
+        "*.php": "html"
+    },
+    "files.trimTrailingWhitespace": true,
+    "vscode_custom_css.imports": [
+        "/Volumes/Macintosh HD/Users/petelambert/.vscodestyles.css"
+    ],
+    "css.validate": false,
+    "less.validate": false,
+    "gitlens.keymap": "chorded",
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "workbench.sideBar.location": "left",
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.fontAliasing": "antialiased",
+    "prettier.stylelintIntegration": true,
+    "prettier.printWidth": 120,
+    "emmet.syntaxProfiles": {
+        "javascript": "html",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "emmet.includeLanguages": {
+        "jsx-sublime-babel-tags": "javascriptreact"
+    },
+    "explorer.confirmDelete": false,
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "scss.lint.float": "error",
+    "scss.lint.important": "error",
+    "scss.lint.compatibleVendorPrefixes": "error",
+    "scss.lint.unknownVendorSpecificProperties": "warning",
+    "scss.lint.vendorPrefix": "error",
+    "workbench.iconTheme": "material-icon-theme",
+    "diffEditor.ignoreTrimWhitespace": false
+}
