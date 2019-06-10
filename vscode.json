@@ -1,64 +1,121 @@
 {
-    "[scss]": {
-        "editor.formatOnSave": true
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontFamily": "'Dank Mono', 'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.cursorWidth": 3,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.dragAndDrop": true,
+  "editor.insertSpaces": true,
+  "editor.autoIndent": true,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "css.validate": false,
+  "less.validate": false,
+  "files.trimTrailingWhitespace": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.printWidth": 120,
+  "[scss]": {
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "emmet.includeLanguages": {
+    "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
     },
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 16,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
-    "editor.fontWeight": "400",
-    "editor.cursorBlinking": "solid",
-    "editor.cursorWidth": 3,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 2,
-    "editor.dragAndDrop": true,
-    "editor.insertSpaces": true,
-    "editor.autoIndent": true,
-    "editor.minimap.enabled": false,
-    "editor.acceptSuggestionOnEnter": "off",
-    "window.zoomLevel": 0,
-    "files.associations": {
-        "*.erb": "javascript",
-        "*.css": "css",
-        "*.scss.erb": "scss",
-        "*.jst.ejs": "ejs",
-        "*.jst": "ejs",
-        "*.php": "html"
+    {
+      "language": "javascriptreact",
+      "autoFix": true
     },
-    "files.trimTrailingWhitespace": true,
-    "vscode_custom_css.imports": [
-        "/Volumes/Macintosh HD/Users/petelambert/.vscodestyles.css"
-    ],
-    "css.validate": false,
-    "less.validate": false,
-    "gitlens.keymap": "chorded",
-    "gitlens.advanced.messages": {
-        "suppressFileNotUnderSourceControlWarning": true,
-        "suppressShowKeyBindingsNotice": true
+    {
+      "language": "typescript",
+      "autoFix": true
     },
-    "gitlens.historyExplorer.enabled": true,
-    "workbench.sideBar.location": "left",
-    "workbench.colorTheme": "Cobalt2",
-    "workbench.fontAliasing": "antialiased",
-    "prettier.stylelintIntegration": true,
-    "prettier.printWidth": 120,
-    "emmet.syntaxProfiles": {
-        "javascript": "html",
-        "xml": {
-            "attr_quotes": "single"
-        }
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "vscode_custom_css.imports": [
+    "/Volumes/Macintosh HD/Users/petelambert/Working/dotfiles/.vscodestyles.css"
+  ],
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.25,
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontWeightBold": "800",
+  "eslint.autoFixOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.insertFinalNewline": true,
+  "html.format.endWithNewline": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
     },
-    "emmet.includeLanguages": {
-        "jsx-sublime-babel-tags": "javascriptreact"
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
     },
-    "explorer.confirmDelete": false,
-    "gitlens.views.fileHistory.enabled": true,
-    "gitlens.views.lineHistory.enabled": true,
-    "scss.lint.float": "error",
-    "scss.lint.important": "error",
-    "scss.lint.compatibleVendorPrefixes": "error",
-    "scss.lint.unknownVendorSpecificProperties": "warning",
-    "scss.lint.vendorPrefix": "error",
-    "workbench.iconTheme": "material-icon-theme",
-    "diffEditor.ignoreTrimWhitespace": false
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
 }
