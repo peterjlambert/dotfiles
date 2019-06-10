@@ -124,12 +124,7 @@ alias lcfe="cd ~/working/logikcull-devbox/frontend && foreman start"
 alias ll="ls -lhFG"
 alias zshrc="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-
-function v!() {
-  cd ~/working/devbox
-  if ! [[ $(vagrant status) =~ running ]]; then vagrant up; fi
-  vagrant ssh
-}
+alias jestwatch="yarn run jest --watch"
 
 function d3 {
   # Kills whatever's running on the passed port
@@ -142,3 +137,7 @@ function d3 {
 
 eval "$(direnv hook zsh)"
 eval "$(rbenv init -)"
+
+  # Set Spaceship ZSH as a prompt
+  autoload -U promptinit; promptinit
+  prompt spaceship
