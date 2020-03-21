@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "'Dank Mono', 'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
@@ -18,7 +18,6 @@
   "css.validate": false,
   "less.validate": false,
   "files.trimTrailingWhitespace": true,
-  "prettier.stylelintIntegration": true,
   "prettier.printWidth": 120,
   "[scss]": {
     "editor.formatOnSave": true
@@ -118,4 +117,8 @@
       "value": "#42b883"
     }
   ],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 }
