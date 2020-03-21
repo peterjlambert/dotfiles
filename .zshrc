@@ -119,7 +119,7 @@ alias lc="cd ~/working/logikcull-devbox/"
 alias lcm="cd ~/working/logikcull-marketing"
 alias lcd="cd ~/working/logikcull-designsystem/ui-component-library"
 alias edithosts="sudo code /private/etc/hosts"
-alias lcbe="cd ~/working/logikcull-devbox/dde && docker-compose up mysql backend"
+alias lcbe="cd ~/working/logikcull-devbox/dde && docker-compose up mysql backend logikcull-processing-server"
 alias lcfe="cd ~/working/logikcull-devbox/frontend && foreman start"
 alias ll="ls -lhFG"
 alias zshrc="code ~/.zshrc"
@@ -141,3 +141,11 @@ eval "$(rbenv init -)"
   # Set Spaceship ZSH as a prompt
   autoload -U promptinit; promptinit
   prompt spaceship
+
+
+export BACKEND_DIR=/Users/petelambert/working/logikcull-devbox/backend
+export DDE_BACKEND_STATIC=true
+export FRONTEND_DIR=/Users/petelambert/working/logikcull-devbox/frontend
+export PATH="/Users/petelambert/working/logikcull-devbox/dde/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export STYLE_STORAGE="blob"
